@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1 id="head">Take Notes</h1>
+    <form id="submit">
+        <div class="form-div">
+            <label>Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-div">
+            <label>Title: </label>
+        <input type="text" name="title" id="title" placeholder="Enter your Title" required>
+        </div>
+        <div class="form-div">
+            <label>Description: </label>
+        <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Write your title description" required></textarea>
+        </div>
+        <button type="submit" class="btn">Add</button>
+    </form>
+
+    <div class="notes-value">
+        <h1 id="head2">Your Notes</h1>
+        <div class="notes-details">
+            <div class="details">
+                sno:
+            </div>
+            
+            <div class="details">
+                Name:
+            </div>
+            <div class="details">
+                Title:
+            </div>
+            <div class="details">
+                Description:
+            </div>
+        </div>
+    </div>
+
+    <div class="fetch_value">
+        <div class="fetch_details">
+
+        </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-storage.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
