@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(173, 235, 214);
+    /* background: url(/images/n5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+#head{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#submit{
+    margin-top: 3rem;
+    margin-left: 34rem;
+}
+
+#submit .form-div{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.form-div input{
+    width: 30%;
+    line-height: 30px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+.form-div label{
+    font-size: 20px;
+}
+
+.form-div textarea{
+    width: 60%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+#submit .btn{
+    margin-left: 31rem;
+    width: 10%;
+    line-height: 40px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+}
+
+#submit .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#head2{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 8rem;
+}
+
+
+.sn,.name,.title,.desc{
+    flex: 1;
+}
+
+.emphasis{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fetch_details .tag{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    /* width: 20%; */
+    flex-direction: column;
+    height: 6vh;
+}
+/* .tags .details{
+    margin-left: 9rem;
+    text-align: center;
+    
+} */
+
+/* .tag .btn2{
+    margin-left: 3rem;
+    width: 10%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+} */

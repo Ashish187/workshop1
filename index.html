@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 id="head">Take Notes</h1>
@@ -25,33 +25,38 @@
         <button type="submit" class="btn">Add</button>
     </form>
 
-    <div class="notes-value">
-        <h1 id="head2">Your Notes</h1>
-        <div class="notes-details">
-            <div class="details">
-                sno:
-            </div>
-            
-            <div class="details">
-                Name:
-            </div>
-            <div class="details">
-                Title:
-            </div>
-            <div class="details">
-                Description:
-            </div>
-        </div>
-    </div>
+   
 
-    <div class="fetch_value">
-        <div class="fetch_details">
+    <!-- <div class="fetch_value">
+        <div class="notes-details fetch_details">
 
         </div>
+    </div> -->
+
+    <h1 id="head2">Your Notes</h1>
+
+    <div class="header">
+        <div class="group emphasis">
+            <div class="sn">
+                Sno.
+            </div>
+            <div class="name">
+                Name
+            </div>
+            <div class="title">
+                Title
+            </div>
+            <div class="desc">
+                Desc
+            </div>
+        </div>
+        <div class="body"></div>
+        
+       
     </div>
     
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase.js"></script> 
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-storage.js"></script>
-    <script src="/js/index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
